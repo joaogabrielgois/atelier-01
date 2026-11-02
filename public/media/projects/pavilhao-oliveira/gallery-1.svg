@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4EFE5"/><stop offset="1" stop-color="#E2D3BD"/></linearGradient>
+<linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C4B194"/><stop offset="1" stop-color="#A8937A"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#E2D3BD"/></linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<circle cx="1280.0" cy="200.0" r="176.0" fill="#ffffff" opacity="0.35"/>
+<rect y="700.0" width="1600" height="300.0" fill="url(#ground)"/>
+<polygon points="448.4,700.0 992.5,700.0 1408.5,760.0 608.4,760.0" fill="#33291F" opacity="0.12"/>
+<rect x="128.4" y="501.5" width="272.0" height="198.5" fill="#E8DCC8"/>
+<polygon points="400.4,501.5 448.4,463.1 448.4,661.6 400.4,700.0" fill="#A8937A"/>
+<rect x="448.4" y="286.5" width="544.0" height="413.5" fill="#E8DCC8"/>
+<polygon points="992.5,286.5 1088.5,228.9 1088.5,642.4 992.5,700.0" fill="#A8937A"/>
+<polygon points="448.4,286.5 544.4,228.9 1088.5,228.9 992.5,286.5" fill="#33291F" opacity="0.14"/>
+<rect x="492.0" y="369.2" width="457.0" height="33.1" fill="#33291F" opacity="0.28"/>
+<rect x="492.0" y="472.6" width="457.0" height="33.1" fill="#33291F" opacity="0.28"/>
+<rect x="492.0" y="575.9" width="457.0" height="33.1" fill="#33291F" opacity="0.28"/>
+<polygon points="896.0,0 1120.0,0 480.0,1000 160.0,1000" fill="url(#beam)"/>
+</svg>

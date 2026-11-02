@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Substitua https://www.exemplo.com.br pelo domínio real do cliente. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.exemplo.com.br/</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/casa-dunas</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/pavilhao-oliveira</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/edificio-linha</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/galeria-pedra</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/apartamento-sete</loc></url>
+  <url><loc>https://www.exemplo.com.br/projetos/loft-areia</loc></url>
+  <url><loc>https://www.exemplo.com.br/estudio</loc></url>
+  <url><loc>https://www.exemplo.com.br/servicos</loc></url>
+  <url><loc>https://www.exemplo.com.br/contato</loc></url>
+</urlset>

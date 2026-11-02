@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Identidade: papel quente, verde oliva, areia e tinta. Os nomes são usados como utilitários (bg-olive, text-stone...). */
+@theme {
+  --color-paper: #EEECE4;
+  --color-paper-deep: #E2DFD2;
+  --color-olive: #4B4F36;
+  --color-olive-soft: #7C7F5E;
+  --color-sand: #C9B9A0;
+  --color-ink: #181815;
+  --color-stone: #5F5B52;
+  --color-clay: #8A3B2E;
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ease-atelier: cubic-bezier(0.2, 0.7, 0.1, 1);
+}
+
+@layer base {
+  html {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-olive);
+    outline-offset: 4px;
+  }
+  ::selection {
+    background-color: var(--color-sand);
+    color: var(--color-ink);
+  }
+}
+
+@keyframes atelier-fade {
+  from { opacity: 0; transform: scale(1.015); }
+  to { opacity: 1; transform: none; }
+}
+
+.animate-atelier-fade {
+  animation: atelier-fade 0.9s var(--ease-atelier) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
