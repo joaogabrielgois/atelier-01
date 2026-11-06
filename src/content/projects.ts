@@ -58,7 +58,7 @@ export const projects: readonly Project[] = [
     approach:
       'O estudo de insolação e dos ventos dominantes definiu a orientação. As aberturas do poente foram dimensionadas para sombrear sem fechar a vista do mar.',
     materials: ['Concreto aparente', 'Madeira de demolição', 'Pedra local', 'Vidro de controle solar'],
-    cover: media('casa-dunas', 'cover.svg', 'Fachada da casa com dois volumes baixos e pátio coberto ao fim da tarde'),
+    cover: media('casa-dunas', 'cover-conceitual.jpg', 'Imagem conceitual de uma casa de concreto e pedra aberta para um jardim tropical'),
     gallery: [
       media('casa-dunas', 'gallery-1.svg', 'Sala de estar com parede de vidro voltada para o pátio'),
       media('casa-dunas', 'gallery-2.svg', 'Vista externa do pátio coberto e da circulação entre os volumes'),
