@@ -60,9 +60,9 @@ export const projects: readonly Project[] = [
     materials: ['Concreto aparente', 'Madeira de demolição', 'Pedra local', 'Vidro de controle solar'],
     cover: media('casa-dunas', 'cover-conceitual.jpg', 'Imagem conceitual de uma casa de concreto e pedra aberta para um jardim tropical'),
     gallery: [
-      media('casa-dunas', 'gallery-1.svg', 'Sala de estar com parede de vidro voltada para o pátio'),
-      media('casa-dunas', 'gallery-2.svg', 'Vista externa do pátio coberto e da circulação entre os volumes'),
-      media('casa-dunas', 'gallery-3.svg', 'Cozinha integrada, com marcenaria em madeira reaproveitada'),
+      media('casa-dunas', 'gallery-1.jpg', 'Sala de estar com parede de vidro voltada para o pátio'),
+      media('casa-dunas', 'gallery-2.jpg', 'Vista externa do pátio coberto e da circulação entre os volumes'),
+      media('casa-dunas', 'gallery-3.jpg', 'Cozinha integrada, com marcenaria em madeira reaproveitada'),
     ],
   },
   {
@@ -78,11 +78,11 @@ export const projects: readonly Project[] = [
     approach:
       'A cobertura tem caimento voltado à captação de água da chuva. As esquadrias são de correr, para permitir ventilação cruzada em todos os ambientes.',
     materials: ['Aço corten', 'Tijolo aparente', 'Madeira de cumaru', 'Pedra basalto'],
-    cover: media('pavilhao-oliveira', 'cover.svg', 'Pavilhão de aço corten apoiado em pilares sobre o terreno inclinado'),
+    cover: media('pavilhao-oliveira', 'cover.jpg', 'Pavilhão de aço corten apoiado em pilares sobre o terreno inclinado'),
     gallery: [
-      media('pavilhao-oliveira', 'gallery-1.svg', 'Ateliê com pé-direito duplo e iluminação zenital'),
-      media('pavilhao-oliveira', 'gallery-2.svg', 'Térreo livre com jardim e acesso à garagem'),
-      media('pavilhao-oliveira', 'gallery-3.svg', 'Detalhe da fachada em tijolo aparente ao entardecer'),
+      media('pavilhao-oliveira', 'gallery-1.jpg', 'Ateliê com pé-direito duplo e iluminação zenital'),
+      media('pavilhao-oliveira', 'gallery-2.jpg', 'Térreo livre com jardim e acesso à garagem'),
+      media('pavilhao-oliveira', 'gallery-3.jpg', 'Detalhe da fachada em tijolo aparente ao entardecer'),
     ],
   },
   {
@@ -98,11 +98,11 @@ export const projects: readonly Project[] = [
     approach:
       'A planta é aberta, com núcleos de serviço concentrados. Foi pensada para que cerca de 40% dos postos possam ser reconfigurados a cada ano.',
     materials: ['Alumínio anodizado', 'Vidro laminado', 'Granito cinza', 'Forro de lã mineral'],
-    cover: media('edificio-linha', 'cover.svg', 'Fachada comercial em lâminas horizontais de alumínio'),
+    cover: media('edificio-linha', 'cover.jpg', 'Fachada comercial em lâminas horizontais de alumínio'),
     gallery: [
-      media('edificio-linha', 'gallery-1.svg', 'Pavimento de escritórios com planta livre'),
-      media('edificio-linha', 'gallery-2.svg', 'Vista da rua pela fachada de lâminas'),
-      media('edificio-linha', 'gallery-3.svg', 'Hall de entrada com granito e iluminação indireta'),
+      media('edificio-linha', 'gallery-1.jpg', 'Pavimento de escritórios com planta livre'),
+      media('edificio-linha', 'gallery-2.jpg', 'Vista da rua pela fachada de lâminas'),
+      media('edificio-linha', 'gallery-3.jpg', 'Hall de entrada com granito e iluminação indireta'),
     ],
   },
   {
@@ -118,11 +118,11 @@ export const projects: readonly Project[] = [
     approach:
       'O percurso não tem corredores. Pontos de parada foram previstos para a leitura de cada coleção, e o visitante pode voltar sem perder o caminho.',
     materials: ['Pedra mineira', 'Estuque de cal', 'Carvalho escovado', 'Trilhos de luz LED'],
-    cover: media('galeria-pedra', 'cover.svg', 'Sala de exposição com paredes de pedra e luz indireta'),
+    cover: media('galeria-pedra', 'cover.jpg', 'Sala de exposição com paredes de pedra e luz indireta'),
     gallery: [
-      media('galeria-pedra', 'gallery-1.svg', 'Entrada da galeria com fachada histórica restaurada'),
-      media('galeria-pedra', 'gallery-2.svg', 'Sala de coleção com peças em pedestais de carvalho'),
-      media('galeria-pedra', 'gallery-3.svg', 'Ponto de parada com banco e leitura sobre o percurso'),
+      media('galeria-pedra', 'gallery-1.jpg', 'Entrada da galeria com fachada histórica restaurada'),
+      media('galeria-pedra', 'gallery-2.jpg', 'Sala de coleção com peças em pedestais de carvalho'),
+      media('galeria-pedra', 'gallery-3.jpg', 'Ponto de parada com banco e leitura sobre o percurso'),
     ],
   },
   {
@@ -138,11 +138,11 @@ export const projects: readonly Project[] = [
     approach:
       'A marcenaria sob medida ocupa as laterais e deixa o centro livre. A paleta de areia e cinza respeita os pisos hidráulicos preservados.',
     materials: ['Taco original restaurado', 'Marcenaria em freijó', 'Linho', 'Mármore travertino'],
-    cover: media('apartamento-sete', 'cover.svg', 'Sala reformada com janelas altas e marcenaria lateral'),
+    cover: media('apartamento-sete', 'cover.jpg', 'Sala reformada com janelas altas e marcenaria lateral'),
     gallery: [
-      media('apartamento-sete', 'gallery-1.svg', 'Sala com piso de taco restaurado e poltronas de linho'),
-      media('apartamento-sete', 'gallery-2.svg', 'Quarto com iluminação de cabeceira embutida'),
-      media('apartamento-sete', 'gallery-3.svg', 'Vista da varanda a partir da janela alta'),
+      media('apartamento-sete', 'gallery-1.jpg', 'Sala com piso de taco restaurado e poltronas de linho'),
+      media('apartamento-sete', 'gallery-2.jpg', 'Quarto com iluminação de cabeceira embutida'),
+      media('apartamento-sete', 'gallery-3.jpg', 'Vista da varanda a partir da janela alta'),
     ],
   },
   {
@@ -156,18 +156,18 @@ export const projects: readonly Project[] = [
     concept:
       'A estrutura metálica existente fica à vista. Os novos elementos são de tons areia e madeira clara, para que o espaço pareça ter sido sempre habitado.',
     approach:
-      'O comparativo usa o mesmo enquadramento e a mesma luz natural, para que a mudança seja lida com justiça.',
+      'As imagens conceituais apresentam o galpão e a proposta de transformação em loft.',
     materials: ['Estrutura metálica original', 'Reboco de cal', 'Madeira clara', 'Pintura mineral'],
-    cover: media('loft-areia', 'cover.svg', 'Loft com estrutura metálica à vista e tons de areia'),
+    cover: media('loft-areia', 'cover.jpg', 'Loft com estrutura metálica à vista e tons de areia'),
     gallery: [
-      media('loft-areia', 'gallery-1.svg', 'Área de estar sob a estrutura metálica original'),
-      media('loft-areia', 'gallery-2.svg', 'Janelas do galpão com cortinas de linho'),
-      media('loft-areia', 'gallery-3.svg', 'Cozinha com bancada de madeira clara'),
+      media('loft-areia', 'gallery-1.jpg', 'Área de estar sob a estrutura metálica original'),
+      media('loft-areia', 'gallery-2.jpg', 'Janelas do galpão com cortinas de linho'),
+      media('loft-areia', 'gallery-3.jpg', 'Cozinha com bancada de madeira clara'),
     ],
     beforeAfter: {
-      before: media('loft-areia', 'before.svg', 'Galpão antes da reforma, com piso de concreto desgastado e paredes sem acabamento'),
-      after: media('loft-areia', 'after.svg', 'Loft depois da reforma, com estrutura metálica à vista e tons de areia'),
-      caption: 'Arraste o controle para comparar o antes e o depois, com o mesmo enquadramento.',
+      before: media('loft-areia', 'before.jpg', 'Galpão antes da reforma, com piso de concreto desgastado e paredes sem acabamento'),
+      after: media('loft-areia', 'after.jpg', 'Loft depois da reforma, com estrutura metálica à vista e tons de areia'),
+      caption: 'Arraste o controle para explorar as imagens conceituais do antes e do depois.',
     },
   },
 ];
